@@ -1,30 +1,13 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
-// Player`s main character controller.
-public class PlayerController : MonoBehaviour
+public class PlayerUniversalController : PlayerController
 {
-    // Only one player.
-    public static PlayerController Instance { get; protected set; } = null;
-
-    protected Rigidbody MyRigidbody = null;
-
-    [SerializeField] protected String LevelNumber = "Unknown";
-    [SerializeField] protected float MovingSpeed = 5f;
-    [SerializeField] protected float JumpStrength = 10f;
-
-    protected void Awake()
-    {
-        // Only one player.
-        if (Instance != null)
-            Destroy(gameObject);
-        else
-            Instance = this;
-    }
-
-    protected virtual void Start()
+    [SerializeField] private float RotatingSpeed = 10f;
+    protected override void Start()
     {
         // Register Level Manager.
         GameManager.Instance.RegisterLevelManager(this, LevelNumber);
@@ -32,12 +15,7 @@ public class PlayerController : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody>();
     }
 
-    protected void OnDestroy()
-    {
-        Instance = null;
-    }
-
-    public virtual void Move(int direction)
+    public override void Move(int direction)
     {
         if (MyRigidbody == null)
             return;
@@ -53,15 +31,14 @@ public class PlayerController : MonoBehaviour
             MyRigidbody.MovePosition(theTransform.position + theTransform.right * MovingSpeed * Time.deltaTime);
     }
 
-    public void SetIdle()
+    public void Turn(float direction)
     {
-        // TODO.
-    }
-
-    public void Jump()
-    {
-        if (MyRigidbody.velocity.y < -5)
+        if (MyRigidbody == null)
             return;
-        MyRigidbody.AddForce(Vector3.up * JumpStrength);
+        //
+        // Vector3 aim = Vector3.right*direction * RotatingSpeed * Time.deltaTime;
+        // Debug.Log(aim);
+        // MyRigidbody.DORotate(aim, 2 * Time.deltaTime);
+        transform.Rotate(Vector3.up,direction * RotatingSpeed * Time.deltaTime,Space.Self);
     }
 }

@@ -58,11 +58,18 @@ public class GameManager : MonoBehaviour
             Controlling = true;
             CurrentLevelManager.PressS();
         }
-        
+
         if (TheMouse.leftButton.IsPressed())
         {
             Controlling = true;
             CurrentLevelManager.PressingM();
+        }
+
+        float mx = TheMouse.delta.ReadValue().x;
+        //Debug.Log(mx);
+        if (mx != 0)
+        {
+            CurrentLevelManager.Turn(mx);
         }
 
         if (!Controlling)

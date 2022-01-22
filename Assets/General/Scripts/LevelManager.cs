@@ -22,4 +22,6 @@ public abstract class LevelManager
 
     public virtual void PressM() {}
     public virtual void PressingM() {}
+    
+    public virtual void Turn(float direction) {}
 }

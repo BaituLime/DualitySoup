@@ -2,9 +2,10 @@
 
 public class Level5Manager : LevelManager
 {
+    private PlayerUniversalController UniversalController;
     public Level5Manager(PlayerController playerController) : base(playerController)
     {
-        // Nothing at the present.
+        UniversalController = (PlayerUniversalController)playerController;
     }
 
     public override void GotoNext()
@@ -24,10 +25,12 @@ public class Level5Manager : LevelManager
 
     public override void PressA()
     {
+        Controller.Move(2);
     }
 
     public override void PressD()
     {
+        Controller.Move(3);
     }
 
     public override void SetIdle()
@@ -38,5 +41,10 @@ public class Level5Manager : LevelManager
     public override void PressM()
     {
         Controller.Jump();
+    }
+
+    public override void Turn(float direction)
+    {
+        UniversalController.Turn(direction);
     }
 }

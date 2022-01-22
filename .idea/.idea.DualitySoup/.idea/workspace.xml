@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a6c542-603f-4978-bb3f-22782de5f7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/InteractThings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/InteractThings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Resources/chaihuodui.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Resources/chaihuodui.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/TempButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/TempButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/CameraFollower.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/PlayerUniversalController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/PlayerUniversalController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Level4Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Level4Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Level5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/Level5Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/Level5Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +32,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/TempButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4fb9ebe7919642bb9c55725abab8d92f3800/cc/89dec39e/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,10 +70,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="28968">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="28968" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -92,7 +98,8 @@
       <workItem from="1642830843757" duration="1331000" />
       <workItem from="1642832334545" duration="699000" />
       <workItem from="1642835896280" duration="3185000" />
-      <workItem from="1642840744951" duration="13924000" />
+      <workItem from="1642840744951" duration="22943000" />
+      <workItem from="1642865922137" duration="5277000" />
     </task>
     <servers />
   </component>

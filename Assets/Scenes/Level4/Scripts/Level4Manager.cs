@@ -1,7 +1,7 @@
-﻿// The Manager of Level3.
-
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// The Manager of Level4.
 public class Level4Manager : LevelManager
 {
     public InteractThings CurrentInteractItem = null;
@@ -47,5 +47,13 @@ public class Level4Manager : LevelManager
     {
         if (CurrentInteractItem != null)
             CurrentInteractItem.Interact();
+    }
+
+    public void GenerateWoodStack()
+    {
+        if (WoodNumber < 3)
+            return;
+        GameObject.Instantiate(Resources.Load<GameObject>("chaihuodui"),
+            Controller.transform.position + Controller.transform.forward * 5f, Quaternion.identity);
     }
 }
