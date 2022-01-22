@@ -1,7 +1,12 @@
 ﻿// The Manager of Level3.
 
+using UnityEngine.SceneManagement;
+
 public class Level4Manager : LevelManager
 {
+    public InteractThings CurrentInteractItem = null;
+    public int WoodNumber = 0;
+
     public Level4Manager(PlayerController playerController) : base(playerController)
     {
         // Nothing at the present.
@@ -9,7 +14,8 @@ public class Level4Manager : LevelManager
 
     public override void GotoNext()
     {
-        // TODO: Enter Level 2.
+        // TODO: Enter Level 5.
+        SceneManager.LoadScene("Level5");
     }
 
     public override void PressW()
@@ -39,6 +45,7 @@ public class Level4Manager : LevelManager
 
     public override void PressM()
     {
-        Controller.Jump();
+        if (CurrentInteractItem != null)
+            CurrentInteractItem.Interact();
     }
 }

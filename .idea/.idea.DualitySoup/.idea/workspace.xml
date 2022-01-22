@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a6c542-603f-4978-bb3f-22782de5f7f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/InteractThings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/InteractThings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Level4Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Level4Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +25,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/Wood.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level4/Scripts/WoodStack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4fb9ebe7919642bb9c55725abab8d92f3800/cc/89dec39e/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,7 +92,7 @@
       <workItem from="1642830843757" duration="1331000" />
       <workItem from="1642832334545" duration="699000" />
       <workItem from="1642835896280" duration="3185000" />
-      <workItem from="1642840744951" duration="9086000" />
+      <workItem from="1642840744951" duration="13924000" />
     </task>
     <servers />
   </component>
