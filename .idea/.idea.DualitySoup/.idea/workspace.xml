@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a6c542-603f-4978-bb3f-22782de5f7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/General/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/General/Models/Actor1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/General/Models/Actor1.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Materials/Background.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Materials/Background.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Sprites/Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Sprites/Background.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Models/chaihuodui.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Models/chaihuodui.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/Level5Manager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level5/Scripts/Level5Manager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DualitySoup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Config/DualitySoup.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/General/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/General/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/Scripts/Level3Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3/Scripts/Level3Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +78,7 @@
       <workItem from="1642830843757" duration="1331000" />
       <workItem from="1642832334545" duration="699000" />
       <workItem from="1642835896280" duration="3185000" />
-      <workItem from="1642840744951" duration="9032000" />
+      <workItem from="1642840744951" duration="9086000" />
     </task>
     <servers />
   </component>

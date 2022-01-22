@@ -78,7 +78,9 @@ public class GameManager : MonoBehaviour
         else if (number == "Level3")
             CurrentLevelManager = new Level3Manager(mainPlayer);
         else if (number == "Level4")
-            CurrentLevelManager = new Level3Manager(mainPlayer);
+            CurrentLevelManager = new Level4Manager(mainPlayer);
+        else if (number == "Level5")
+            CurrentLevelManager = new Level5Manager(mainPlayer);
 
         InputEntry.camera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
