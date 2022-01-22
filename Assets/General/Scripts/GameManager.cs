@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public LevelManager CurrentLevelManager { get; private set; }
     private PlayerInput InputEntry;
     private Keyboard TheKeyboard;
+    private Mouse TheMouse;
+    private bool Controlling;
 
     private void Awake()
     {
@@ -27,20 +29,44 @@ public class GameManager : MonoBehaviour
     {
         InputEntry = GetComponent<PlayerInput>();
         TheKeyboard = Keyboard.current;
+        TheMouse = Mouse.current;
     }
 
     private void Update()
     {
         if (CurrentLevelManager == null)
             return;
-        if(TheKeyboard.aKey.IsPressed())
+
+        Controlling = false;
+        if (TheKeyboard.aKey.IsPressed())
+        {
+            Controlling = true;
             CurrentLevelManager.PressA();
+        }
         else if (TheKeyboard.dKey.IsPressed())
+        {
+            Controlling = true;
             CurrentLevelManager.PressD();
+        }
         else if (TheKeyboard.wKey.IsPressed())
+        {
+            Controlling = true;
             CurrentLevelManager.PressW();
+        }
         else if (TheKeyboard.sKey.IsPressed())
+        {
+            Controlling = true;
             CurrentLevelManager.PressS();
+        }
+        
+        if (TheMouse.leftButton.IsPressed())
+        {
+            Controlling = true;
+            CurrentLevelManager.PressingM();
+        }
+
+        if (!Controlling)
+            CurrentLevelManager.SetIdle();
     }
 
     public void RegisterLevelManager(PlayerController mainPlayer, String number)

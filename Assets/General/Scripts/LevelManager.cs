@@ -21,4 +21,5 @@ public abstract class LevelManager
     public abstract void SetIdle();
 
     public virtual void PressM() {}
+    public virtual void PressingM() {}
 }

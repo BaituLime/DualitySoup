@@ -8,15 +8,15 @@ using UnityEngine.Serialization;
 public class PlayerController : MonoBehaviour
 {
     // Only one player.
-    public static PlayerController Instance { get; private set; } = null;
+    public static PlayerController Instance { get; protected set; } = null;
 
-    private Rigidbody MyRigidbody = null;
+    protected Rigidbody MyRigidbody = null;
 
-    public String LevelNumber = "Unknown";
-    public float MovingSpeed = 5f;
-    public float JumpStrength = 10f;
+    [SerializeField] protected String LevelNumber = "Unknown";
+    [SerializeField] protected float MovingSpeed = 5f;
+    [SerializeField] protected float JumpStrength = 10f;
 
-    private void Awake()
+    protected void Awake()
     {
         // Only one player.
         if (Instance != null)
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
             Instance = this;
     }
 
-    private void Start()
+    protected void Start()
     {
         // Register Level Manager.
         GameManager.Instance.RegisterLevelManager(this, LevelNumber);
@@ -33,12 +33,12 @@ public class PlayerController : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody>();
     }
 
-    private void OnDestroy()
+    protected void OnDestroy()
     {
         Instance = null;
     }
 
-    public void Move(int direction)
+    public virtual void Move(int direction)
     {
         if (MyRigidbody == null)
             return;
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
-        if (MyRigidbody.velocity.y < -10)
+        if (MyRigidbody.velocity.y < -5)
             return;
         MyRigidbody.AddForce(Vector3.up * JumpStrength);
     }

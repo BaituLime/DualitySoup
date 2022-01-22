@@ -1,15 +1,18 @@
-﻿// The Manager of Level3.
+﻿using UnityEngine;
 
+// The Manager of Level3.
 public class Level3Manager : LevelManager
 {
+    public DetectDive SecondController;
+    
     public Level3Manager(PlayerController playerController) : base(playerController)
     {
-        // Nothing at the present.
+        SecondController = playerController.GetComponent<DetectDive>();
     }
 
     public override void GotoNext()
     {
-        // TODO: Enter Level 2.
+        // TODO: Enter Level 4.
     }
 
     public override void PressW()
@@ -35,10 +38,11 @@ public class Level3Manager : LevelManager
     public override void SetIdle()
     {
         Controller.SetIdle();
+        SecondController.SetIdle();
     }
 
-    public override void PressM()
+    public override void PressingM()
     {
-        Controller.Jump();
+        SecondController.Dive();
     }
 }
